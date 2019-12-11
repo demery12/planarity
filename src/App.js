@@ -8,6 +8,7 @@ function Node() {
 
 var k5 = {0:[1,2,3,4], 1:[0,2,3,4], 2:[0,1,3,4], 3:[0,1,2,4], 4:[0,1,2,3]};
 
+
 function depthFirstSearch(graph, node) {
     let visited = [];
     let stack = [node]
@@ -33,20 +34,7 @@ function App() {
        <Node/>
        <Node/>
        <Node/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div className='graphViz'></div>
     </div>
   );
 }

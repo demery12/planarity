@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './graph.css'
+import './graph.js'
+import 'https://d3js.org/d3.v5.min.js'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
